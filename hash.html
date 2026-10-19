@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Funciones Hash</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Funciones HASH</h1>
+        <p>Acceso directo a memoria</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="secuencial.html">Búsqueda Secuencial</a></li>
+            <li><a href="binaria.html">Búsqueda Binaria</a></li>
+            <li><a href="hash.html" class="activo">Funciones Hash</a></li>
+            <li><a href="creditos.html">Créditos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Búsqueda por Funciones HASH</h2>
+            <p>La búsqueda mediante tablas Hash transforma la clave de búsqueda a través de una fórmula matemática para calcular exactamente la posición (índice) donde se encuentra el dato en la memoria. Es el método de acceso más rápido que existe.</p>
+
+            <h3>Características:</h3>
+            <ul>
+                <li><strong>Complejidad de Tiempo:</strong> O(1) en el caso promedio. El tiempo de búsqueda es inmediato, no importa si hay 10 o 10 millones de datos.</li>
+                <li><strong>Colisiones:</strong> Ocurren cuando la fórmula da el mismo resultado para dos datos distintos. El sistema debe saber manejar estos "choques".</li>
+            </ul>
+
+            <div class="os-context">
+                <strong>Contexto en Sistemas Operativos (Tanenbaum):</strong> Según Andrew S. Tanenbaum en "Sistemas Operativos Modernos", los equipos de 64 bits se enfrentaron a un problema: las tablas de páginas convencionales para la memoria virtual se volvieron inmensas. <br><br>
+                La solución fue implementar <strong>Tablas de Páginas Invertidas</strong> combinadas con funciones <strong>Hash</strong>. El sistema operativo aplica una función hash a la página virtual solicitada para encontrar rápidamente en qué marco de la memoria RAM (memoria física) está ubicada, reduciendo una búsqueda enorme a un solo paso O(1).
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Diseñado para propósitos educativos. | Proyecto Web</p>
+    </footer>
+
+</body>
+</html>

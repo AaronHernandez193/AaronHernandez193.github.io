@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Créditos | Proyecto de Sistemas Operativos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Estilos específicos para la sección de la foto en esta página */
+        .perfil-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .foto-placeholder {
+            width: 180px;
+            height: 220px;
+            margin: 0 auto;
+            border: 3px dashed var(--accent-color);
+            background-color: #eef2f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: #7f8c8d;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        /* Si agregas una etiqueta <img> dentro del div, este estilo hará que se ajuste bien */
+        .foto-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .datos-proyecto {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .datos-proyecto p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .datos-proyecto strong {
+            color: var(--primary-color);
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Créditos del Proyecto</h1>
+        <p>Desarrollo y Diseño Web</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="secuencial.html">Búsqueda Secuencial</a></li>
+            <li><a href="binaria.html">Búsqueda Binaria</a></li>
+            <li><a href="hash.html">Funciones Hash</a></li>
+            <li><a href="creditos.html" class="activo">Créditos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Información del Alumno</h2>
+            
+            <div class="perfil-container">
+                <!-- DIVISIÓN PARA TU FOTO -->
+                <div class="foto-placeholder">
+                    <!-- Cuando tengas tu foto, borra el texto de abajo y pon tu imagen así: -->
+                    
+                    <img src="Aaron.jpeg">
+                </div>
+            </div>
+
+            <div class="datos-proyecto">
+                <p><strong>Alumno:</strong> Aarón Eduardo Hernández Gutiérrez</p>
+                <p><strong>Maestra:</strong> Myrna Villegas Gaytán</p>
+                <p><strong>Materia:</strong> Sistemas Operativos</p>
+                <p><strong>Tema:</strong> Unidad VI Métodos de Búsqueda</p>
+            </div>
+            
+        </section>
+    </div>
+
+    <footer>
+        <p>Diseñado para propósitos educativos. | Proyecto Web</p>
+    </footer>
+
+</body>
+</html>
